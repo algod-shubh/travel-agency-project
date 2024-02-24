@@ -11,9 +11,6 @@ export default function Testimonial() {
         <h1>What our Happy Customers Say About Us</h1>
       </div>
       <div className="testimonials">
-        <div className="testimonial-image-one">
-          <img src={testimonial1} alt="testimonials" />
-        </div>
         <div className="testimonial">
           <div className="title">
             <div className="image">
@@ -21,19 +18,48 @@ export default function Testimonial() {
             </div>
             <div className="info">
               <h3>Kishan Sheth</h3>
-              <span>Full Stack Developer</span>
+              <span>Bagpacker from Spain</span>
             </div>
           </div>
           <p className="desrciption">
-            Jetrips Hotel is an excellent choice for anybody for considering
-            hosting their events there. Top level facilities and excellent staff
-            make for a briallant environment within which to operate. The hotel
-            is meticulous in its planning.
+            Impressed by the professionalism and efficiency of this travel
+            agency. They tailored our trip exactly to our preferences, ensuring
+            every moment was enjoyable and stress-free.
           </p>
         </div>
-        <div className="testimonial-image-two">
-          <img src={testimonial2} alt="testimonials" />
+        <div className="testimonial">
+          <div className="title">
+            <div className="image"></div>
+            <div className="info">
+              <h3>Rick Matthews</h3>
+              <span>Family of four</span>
+            </div>
+          </div>
+          <p className="desrciption">
+            Highly satisfied with the personalized attention we received from
+            this travel agency. They went above and beyond to accommodate our
+            requests, resulting in a remarkable and hassle-free holiday
+            experience.
+          </p>
         </div>
+        <div className="testimonial">
+          <div className="title">
+            <div className="image"></div>
+            <div className="info">
+              <h3>Harris Shah</h3>
+              <span>Corporate trip</span>
+            </div>
+          </div>
+          <p className="desrciption">
+            Exceptional service from start to finish. The travel consultants
+            were attentive and responsive, addressing all our inquiries
+            promptly. Our vacation exceeded expectations thanks to their
+            expertise.
+          </p>
+        </div>
+        {/* <div className="testimonial-image-two">
+          <img src={testimonial2} alt="testimonials" />
+        </div> */}
       </div>
     </Section>
   );

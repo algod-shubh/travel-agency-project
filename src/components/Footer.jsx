@@ -27,7 +27,7 @@ export default function Footer() {
               <img src={logo} alt="logo" />
             </div>
             <p className="desciption">
-              You can dream, create, design, and build the most wonderful place.
+              You can dream, create, design, and build the most wonderful trip.
             </p>
           </div>
           <ul>
@@ -35,7 +35,7 @@ export default function Footer() {
               <span> +0213 456 987 </span>
             </li>
             <li>
-              <span>kishansheth21@gmail.com</span>
+              <span>shubhiya@gmail.com</span>
             </li>
             <li>
               <span>www.youtube.com</span>
