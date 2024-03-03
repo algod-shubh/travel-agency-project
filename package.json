@@ -1,14 +1,18 @@
 {
+  "homepage": "https://algod-shubh.github.io/travel-agency-project/",
   "name": "travel-agency",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@mui/icons-material": "^5.15.10",
+    "gh-pages": "^6.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
